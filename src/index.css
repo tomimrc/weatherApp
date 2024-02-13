@@ -1,0 +1,186 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+.wrap{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select{
+  width: 395px;
+  max-width: 395px;
+  }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  min-height: 100vh;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 3.2em;
+  color: rgb(223, 223, 102);
+}
+
+.card-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 30px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  padding: 1.3rem;
+  margin-top: 1rem;
+  max-width: 500px;
+}
+.title-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  color: #b8ddee;
+
+}
+
+.city{  
+  margin-left:10px ;
+  font-weight: 400;
+}
+
+.temp-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin-left: 8px;
+  padding-bottom: 2rem;
+}
+.temp{
+  line-height: 0;
+}
+.icon {
+  margin: 0;
+}
+.isDay{
+  color: rgb(243, 243, 81);
+}
+.isNight{
+  color: rgb(85, 85, 77);
+}
+
+.icon svg{
+  width: 60px;
+  height: 60px;
+  margin: 0;
+}
+
+.insideIcon{
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+.wiIcon{
+  width: 30px;
+  height: 30px;
+  }
+
+.properties-wrap{
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  width:  400px;
+}
+.property{
+  display: flex;
+  background-color: #b8ddee;
+  width: 110px;
+  color: rgba(0, 0, 0, 0.664);
+  border: none;
+  border-radius: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.hourlyWrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hourlyDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.hourlyIcon svg{
+  width: 40px;
+  height: 40px;
+}
+
+.nextWrapper{
+  margin-top: 0;
+  color: rgba(0, 0, 0, 0.616);
+  background-color: #bcd5e0;
+  border: 1px solid white;
+  border-radius: 30px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  max-height: 600px;
+  width: 409px;
+  padding: 1rem;
+  padding-top: 0rem;
+}
+
+.nextDiv{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
+.dailyDayDiv{
+  display: flex;
+  align-items: center;
+
+}
+
+.dailyDayDiv svg{
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+.nextTempDiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.maxTemp{
+  color: black;
+  margin: 0;
+}
+.minTemp{
+  color: rgba(0, 0, 0, 0.363);
+  margin: 0;
+}
